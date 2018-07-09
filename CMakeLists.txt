@@ -26,6 +26,7 @@ set( CLI_CLIENT_EXECUTABLE_NAME cleos )
 set( GUI_CLIENT_EXECUTABLE_NAME eosio )
 set( CUSTOM_URL_SCHEME "gcs" )
 set( INSTALLER_APP_ID "68ad7005-8eee-49c9-95ce-9eed97e5b347" )
+set(ENV{LLVM_DIR}  "/usr/local/Cellar/llvm@4/4.0.1/lib/cmake/")
 
 # http://stackoverflow.com/a/18369825
 if("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
